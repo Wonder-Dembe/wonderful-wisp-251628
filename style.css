@@ -1,0 +1,279 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 165vh;
+  background-image: url('background.jpg.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  max-width: 900px;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.login-link {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.banner-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 60%;
+  max-width: 400px;
+}
+
+.get-started-button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+h3{
+  color: white;
+}
+
+div span {
+  -webkit-text-stroke: 1px white;
+  font-weight: 500;
+  font-size: 100px;
+  position: relative;
+  right: 10px;
+  color: black;
+
+}
+
+div.card {
+  width: 214px;
+  height: 300px;
+
+  display: flex;
+  align-items: flex-end;
+
+}
+
+#show1 {
+  background: url(Images/show1.png) center no-repeat;
+  background-size: cover;
+}
+
+#show2 {
+  background: url(Images/show2.png) center no-repeat;
+  background-size: cover;
+}
+
+#show3 {
+  background: url(Images/show3.png) center no-repeat;
+  background-size: cover;
+}
+
+#show4 {
+  background: url(Images/show4.png) center no-repeat;
+  background-size: cover;
+}
+
+#show5 {
+  background: url(Images/show5.png) center no-repeat;
+  background-size: cover;
+}
+
+#show6 {
+  background: url(Images/show6.png) center no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding: 0 10vw;
+}
+
+#tranding-now {
+  display: flex;
+  gap: 50px;
+  overflow: visible;
+}
+
+#reason-card {
+  color: white;
+  width: 340px;
+  height: 270px;
+
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86% );
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+#more-reasons {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 25px;
+}
+
+
+#faq {
+  color: white;
+}
+
+details {
+  background: #2d2d2d;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+details p {
+  border-top: 1px solid black;
+}
+.footer {
+  padding: 50px 20px;
+  font-size: 18px;
+  color: red;
+  justify-content: center;
+  align-items: center;
+    
+  }
+
+  .footer {
+    transform: translateX(16%);
+  
+  }
+
+  footer {
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+}
+  
+
+#links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+
+ul {
+  list-style: none;
+}
+
+.footer__row__2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.footer__row__1 > h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer__row__3 > .dropdown__container {
+  width: fit-content;
+  border: 1px solid #757575;
+  color: #757575;
+}
+
+footer {
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .footer__row__2 {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    text-decoration: underline;
+    user-select: text;
+  }
+
+  .footer__row__1 {
+    text-decoration: underline;
+
+  }
+    
+  .footer__row__3 {
+    box-sizing: border-box;
+    
+  }
+  .footer__row__4 {
+    align-self: flex-start;
+   
+  }
+
