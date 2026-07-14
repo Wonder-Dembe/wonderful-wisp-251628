@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+  background:#000;
+  
 }
 .banner {
   position: relative;
@@ -182,20 +184,69 @@ main {
   gap: 25px;
 }
 
-
 #faq {
-  color: white;
+    width: 100%;
+    padding: 0 24px;
+    color: #fff;
+    width:100%;
+    max-width:1530px;
+    margin:40px auto;
 }
 
-details {
-  background: #2d2d2d;
-  padding: 10px;
-  margin-bottom: 10px;
+#faq p {
+    background:#2d2d2d;
+    color:#fff;
+
+    margin-top:2px;
+
+    padding:30px 32px;
+
+    font-size:24px;
+    line-height:1.5;
 }
 
-details p {
-  border-top: 1px solid black;
+#faq details {
+    background:#2d2d2d;
+    margin-bottom:10px;
+    transition:0.25s ease;
 }
+
+#faq details:hover{
+    background:#414141;
+}
+
+#faq summary{
+    list-style:none;
+    cursor:pointer;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:28px 32px;
+
+    font-size:32px;
+    font-weight:400;
+
+    color:#fff;
+}
+
+#faq summary::-webkit-details-marker {
+    display:none;
+}
+
+#faq summary::after {
+    content:"+";
+    font-size:60px;
+    font-weight:200;
+    line-height:1;
+    transition:.3s;
+}
+
+#faq details[open] summary::after {
+    transform:rotate(45deg);
+}
+
 .footer {
   padding: 50px 20px;
   font-size: 18px;
